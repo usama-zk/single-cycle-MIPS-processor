@@ -1,10 +1,10 @@
 # MIPS Processor on FPGA
 
-![MIPS Processor](https://img.shields.io/badge/Platform-FPGA-blue) ![Verilog](https://img.shields.io/badge/Language-VHDL-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![MIPS Processor](https://img.shields.io/badge/Platform-FPGA-blue) ![Verilog](https://img.shields.io/badge/Language-Verilog-green)
 
 ## 🚀 Project Overview
 
-This project brings a **MIPS processor** to life on an FPGA, implementing a subset of the MIPS instruction set using VHDL. Designed for educational and experimental purposes, it offers a hands-on way to explore computer architecture, hardware design, and FPGA synthesis. Whether you're a student or a hobbyist, this project is a gateway to understanding processor design!
+This project brings a **MIPS processor** to life on an FPGA, implementing a subset of the MIPS instruction set using Verilog. Designed for educational and experimental purposes, it offers a hands-on way to explore computer architecture, hardware design, and FPGA synthesis. Whether you're a student or a hobbyist, this project is a gateway to understanding processor design!
 
 ## ✨ Key Features
 
@@ -22,12 +22,12 @@ To get started, you'll need:
 - **Software**:
   - [Quartus Prime](https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/overview.html) (for Altera) or [Vivado](https://www.xilinx.com/products/design-tools/vivado.html) (for Xilinx).
   - [ModelSim](https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/model-sim.html) or QuestaSim for simulation.
-- **Knowledge**: Familiarity with VHDL, digital design, and MIPS architecture.
+- **Knowledge**: Familiarity with Verilog, digital design, and MIPS architecture.
 
 ## 📂 Project Structure
 
 ```plaintext
-├── /src              # VHDL source files for the MIPS processor
+├── /src              # Verilog source files for the MIPS processor
 ├── /testbenches      # Testbenches for simulation and verification
 ├── /docs             # Documentation, including block diagrams and instruction set details
 ├── /scripts          # Synthesis and implementation scripts for FPGA tools
@@ -99,10 +99,6 @@ We welcome contributions! Here's how to get involved:
 3. Commit your changes (`git commit -m "Add your feature"`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share!
 
 ## 📬 Contact
 
